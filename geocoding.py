@@ -2,7 +2,7 @@ import urllib
 import sqlite3
 import json
 import ssl
-
+import numpy as np
 serviceurl = "https://maps.googleapis.com/maps/api/geocode/json?"
 
 conn = sqlite3.connect('geodata.sqlite')
